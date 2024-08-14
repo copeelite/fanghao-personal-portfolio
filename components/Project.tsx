@@ -47,24 +47,24 @@ export default function Project({
             </h3>
 
             <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-300">
-              {" "}
-              <Link
-                href={projectUrl}
-                target="_blank"
-                className="w-full flex items-center gap-1  hover:underline underline-offset-2"
-              >
-                <span className="break-keep">Code</span>
-
-                <FaGithubSquare className="w-5 h-5" />
-              </Link>
+              {projectUrl && (
+                <Link
+                  href={projectUrl}
+                  target="_blank"
+                  className="w-full flex items-center gap-1 hover:underline underline-offset-2"
+                >
+                  <span className="break-keep">Code</span>
+                  <FaGithubSquare className="w-5 h-5" />
+                </Link>
+              )}
               {demoUrl && (
                 <Link
                   href={demoUrl}
                   target="_blank"
-                  className=" w-full flex items-center gap-1 hover:underline underline-offset-2"
+                  className="w-full flex items-center gap-1 hover:underline underline-offset-2"
                 >
                   <span className="break-keep min-w-[4.5rem]">Live demo</span>
-                  <FiExternalLink className="w-5 h-5 " />
+                  <FiExternalLink className="w-5 h-5" />
                 </Link>
               )}
             </div>
@@ -90,17 +90,17 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+          transition 
+          group-hover:scale-[1.04]
+          group-hover:-translate-x-3
+          group-hover:translate-y-3
+          group-hover:-rotate-2
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+          group-even:group-hover:translate-x-3
+          group-even:group-hover:translate-y-3
+          group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
+          group-even:right-[initial] group-even:-left-40"
         />
       </section>
     </motion.div>

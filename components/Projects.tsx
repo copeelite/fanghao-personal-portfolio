@@ -28,14 +28,14 @@ export default function Projects() {
           </React.Fragment>
         ))}
       </div>
-      <Link
+      {/* <Link
         className="group tracing-wide font-semibold hover:underline hover:underline-offset-4 hover:decoration-pink text-slate-800 dark:text-slate-400 w-full flex gap-1 items-center justify-center mt-10"
         target="_blank"
         href="https://github.com/Codefreyy?tab=repositories"
       >
         View All Projects
         <FaAngleRight className="group-hover:translate-x-2 transition" />
-      </Link>
+      </Link> */}
     </section>
   )
 }
