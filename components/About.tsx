@@ -105,7 +105,7 @@ export default function About() {
             </b>
             . I am set to graduate with a{" "}
             <b>
-              <i>Bachelor's in Computer Science</i>
+              <i>Bachelor&#39;s in Computer Science</i>
             </b>{" "}
             in{" "}
             <b>
