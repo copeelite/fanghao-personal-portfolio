@@ -4,7 +4,7 @@ Welcome to my personal website project! This repository showcases my personal po
 <img width="804" alt="image" src="public\personal-portfolio.png">
 
 ## Acknowledgements
-A big thank you to [Joy](https://github.com/Codefreyy/joy-personal-portfolio) for their hard work. I forked their GitHub repository, which greatly assisted me in building my personal website and facilitated my learning of front-end development.
+A big thank you to [zhihai](https://github.com/FrdHuy/zhihai-personal-portfolio) for their hard work. I forked their GitHub repository, which greatly assisted me in building my personal website and facilitated my learning of front-end development.
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
