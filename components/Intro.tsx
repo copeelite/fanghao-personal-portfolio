@@ -37,7 +37,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="developer-image"
               width="250"
               height="250"
@@ -138,7 +138,7 @@ export default function Intro() {
         </Link> */}
         <a
           href={
-            activeLocale == "en" ? "/Zhihai_Hu_Resume.pdf" : "/软件开发-胡智海.pdf"
+            activeLocale == "en" ? "/Fanghao_Meng_Resume.pdf" : "/软件开发-孟方淏.pdf"
           }
           download={true}
           className=" bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
